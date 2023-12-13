@@ -1,0 +1,32 @@
+.nav_header{
+    padding: 15px;
+    max-width: 1900px;
+    margin: auto;
+}
+
+header .brand_logo{
+    width: 70px;
+} 
+
+header .navList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user_dropdown_button{
+    background-color: #0E1526;
+    padding: 12px 20px;
+}
+
+.user_dropdown_button:hover{
+    background-color: #0E1526!important;
+}
+
+.rotate-icon{
+    transform: rotate(180deg);
+}
+
+.user_dropdown_menu ul {
+    background-color: #19243A;
+}
