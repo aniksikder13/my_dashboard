@@ -63,7 +63,7 @@ export default function Header() {
             <div>
                 <img 
                     alt='vite'
-                    src='/public/vite.svg'
+                    src='/vite.svg'
                     className={styles.brand_logo}
                 />
             </div>
