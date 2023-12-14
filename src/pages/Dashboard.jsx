@@ -1,6 +1,6 @@
 import React from 'react'
 import DashboardWizard from '../component/dashboard/DashboardWizard'
-import ChartContainer from '../component/dashboard/ChartContainer'
+import ChartContainer from '../component/dashboard/Charts/ChartContainer'
 import TourTable from '../component/dashboard/TourTable'
 
 export default function Dashboard() {

@@ -38,6 +38,10 @@
 body{
     background-color: #0E1526;
 }
+
+.recharts-cartesian-axis-line{
+    display: none;
+}
   
 #root{
     display: flex;

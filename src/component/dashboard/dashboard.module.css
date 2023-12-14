@@ -27,7 +27,6 @@
 
 
 
-
 @media only screen and (max-width: 992px) {
     .wizardCards{
         grid-template-columns: repeat(2, 1fr);
