@@ -25,4 +25,4 @@ npm start
 yarn start
 ```
 
-Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
+Open [http://localhost:5173](http://localhost:5173) or [my-dashboard-dusky.vercel.app](https://my-dashboard-dusky.vercel.app/) with your browser to see the result.
