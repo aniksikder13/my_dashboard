@@ -1,0 +1,47 @@
+.wizardCards{
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ grid-gap: 15px;
+}
+
+.wizardCards li{
+    padding: 15px;
+    background-color: #19243A;
+    border-radius: 7px;
+    border: 1px solid #414c5f;
+}
+
+.wizardCards h4, .wizardCards p{
+    color: rgb(211, 234, 255);
+}
+
+.wizardCards h1{
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .wizardCards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .wizardCards h1{
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .wizardCards{
+        grid-template-columns: 1fr;
+    }
+  }

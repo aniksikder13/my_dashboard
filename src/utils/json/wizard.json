@@ -1,0 +1,26 @@
+{
+    "wizars":[
+        {
+            "title": "Guide views",
+            "point": "1.240",
+            "period": "7 days"
+        },
+        {
+            "title": "Checklists",
+            "point": "680",
+            "period": "7 days"   
+        },
+        {
+            "title": "HotsPot",
+            "point": "1.240",
+            "period": "7 days"
+        },
+        {
+            "title": "Most Active Users",
+            "point": "1.526",
+            "period": "5 year"   
+        }
+    ]
+    
+}
+  
