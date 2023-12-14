@@ -8,7 +8,6 @@ import styles from './nav.module.css'
 
 
 export default function Header() {
-
     const [state, setState] = React.useState({
         right: false,
       });
@@ -21,6 +20,7 @@ export default function Header() {
         setState({ ...state, [anchor]: open });
       };
 
+      // Navigation Link lists
       const navList= <ul className={`${styles.navList} flex items-center`}>
       <li>
           <a href='#'>
@@ -68,6 +68,8 @@ export default function Header() {
                 />
             </div>
             {navList}
+
+            {/* Navigation link lists for Small device */}
             <div className={styles.mobileNav}>
                 {[ 'right'].map((anchor) => (
                     <React.Fragment key={anchor}>
