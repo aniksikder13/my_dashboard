@@ -42,6 +42,14 @@ body{
 .recharts-cartesian-axis-line{
     display: none;
 }
+
+.recharts-wrapper .recharts-tooltip-cursor{
+    fill: transparent;
+}
+
+.active{
+    color: rgb(196, 228, 255)!important;
+}
   
 #root{
     display: flex;

@@ -23,7 +23,7 @@ export default function Header() {
       // Navigation Link lists
       const navList= <ul className={`${styles.navList} flex items-center`}>
       <li>
-          <a href='#'>
+          <a href='#' className={`active`}>
               Dashboard
           </a>
       </li>
